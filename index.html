@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/700f34e47a.js" crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+
+
+    <title>E-commerce</title>
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-sm">
+      <div class="container">
+        <a class="navbar-brand" href="#"><h2 class="logo">Easy<span style="color: #ff0800;">Shop</span></h2></a>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#product">PRODUCT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#review">REVIEW</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contant">CONTECT</a>
+            </li>
+            <li class="nav-item" id="nav-cart">
+              <i class="fa-solid fa-bag-shopping fa-2x" id="cart-icon"></i>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section>
+      <!-------carsoule-------->
+      <div id="carouselExampleDark" class="carousel carousel-dark slide bg-dark" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner container-fluid">
+
+          <!---1st item-->>
+          <div class="carousel-item active" data-bs-interval="10000">
+            <div class="d-flex justify-content-end">
+              <div class="p-2">
+                <img src="image/1.jpg" class="rounded" alt="">
+              </div>
+            </div>
+            
+            <div class="carousel-caption d-none d-md-block">
+              <div class="d-flex align-content-center justify-content-start" style="height: 250px;">
+              <div class="p-2 text-light">
+                <h5 class="fs-3 fw-bold">First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+              <button class="text-white btn btn-primary" herf="#">Buy Now</button>
+              </div>
+            </div>
+            </div>
+          </div>
+
+          <!---2st item-->>
+          <div class="carousel-item" data-bs-interval="2000">
+            <div class="d-flex justify-content-end">
+              <div class="p-2">
+                 <img src="image/2.jpg" class="rounded mx-auto d-block" alt="">
+              </div>
+            </div>
+            <div class="carousel-caption d-none d-md-block text-light">
+              <div class="d-flex align-content-center justify-content-start" style="height: 250px">
+                <div class="p-2">
+                  <h1>Second slide label</h1>
+                  <p>Some representative placeholder content for the second slide.</p>
+                  <button class="text-white btn btn-primary" herf="#">Buy Now</button>
+                </div>
+               </div>
+ 
+            </div>
+          </div>
+<!---3rd item-->>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-end">
+              <div class="p-2">
+                <img src="image/3.jpg" class="rounded mx-auto d-block" alt="">
+              </div>
+            </div>
+            <div class="carousel-caption d-none d-md-block text-light">
+              <div class="d-flex align-content-center justify-content-start" style="height: 250px;">
+                <div class="p-2">
+                  <h1>Third slide label</h1>
+                  <p>Some representative placeholder content for the third slide.</p>
+                  <button class="text-white btn btn-primary" herf="#">Buy Now</button>
+                </div>
+              </div>
+
+            
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </section>
+
+
+
+
+
+    <!-----Our products---->
+   <section class="shop container">
+
+
+    
+
+    
+    
+    
+    <!--shop-->
+    <div class="section-title">OUR PRODUCTS</div>
+    <div class="shop-content">
+       <!--Box 1-->
+       <div class="product-box">
+        <img src="./image/product1.jpg" alt="" class="product-img">
+        <h2 class="product-title">AEROREADY SHIRT</h2>
+        <span class="price">$25</span>
+        <i class="fa-solid fa-bag-shopping add-cart" id="add-Cart"></i>
+      </div>
+      <!--Box 2-->
+      <div class="product-box">
+        <img src="./image/product2.jpg" alt="" class="product-img">
+        <h2 class="product-title">WIRELESS EARBUDS</h2>
+        <span class="price">$25</span>
+        <i class="fa-solid fa-bag-shopping add-cart" id="add-Cart"></i>
+      </div>
+      <!--Box 3-->
+      <div class="product-box">
+        <img src="./image/product3.jpg" alt="" class="product-img">
+        <h2 class="product-title">HOODED PARKA</h2>
+        <span class="price">$25</span>
+        <i class="fa-solid fa-bag-shopping add-cart" id="add-Cart"></i>
+      </div>
+      <!--Box 4-->
+      <div class="product-box">
+        <img src="./image/product4.jpg" alt="" class="product-img">
+        <h2 class="product-title">STRAW METAL BOTTLE</h2>
+        <span class="price">$25</span>
+        <i class="fa-solid fa-bag-shopping add-cart" id="add-Cart"></i>
+      </div>
+      <!--Box 5-->
+      <div class="product-box">
+        <img src="./image/product5.jpg" alt="" class="product-img">
+        <h2 class="product-title">SILVER METAL</h2>
+        <span class="price">$25</span>
+        <i class="fa-solid fa-bag-shopping add-cart" id="addart"></i>
+      </div>
+      <!--Box 6-->
+      <div class="product-box">
+        <img src="./image/product6.jpg" alt="" class="product-img">
+        <h2 class="product-title">BACK HAT</h2>
+        <span class="price">$25</span>
+        <i class="fa-solid fa-bag-shopping add-cart" id="add-Cart"></i>
+      </div>
+      <!--Box 7-->
+      <div class="product-box">
+        <img src="./image/product7.jpg" alt="" class="product-img">
+        <h2 class="product-title">BACKPACK</h2>
+        <span class="price">$25</span>
+        <i class="fa-solid fa-bag-shopping add-cart" id="add-Cart"></i>
+      </div>
+      <!--Box 8-->
+      <div class="product-box">
+        <img src="./image/product8.jpg" alt="" class="product-img">
+        <h2 class="product-title">ULTRABOOST 22</h2>
+        <span class="price">$25</span>
+        <i class="fa-solid fa-bag-shopping add-cart" id="add-Cart"></i>
+      </div>
+
+      <!---cart-->
+    <div class="cart"> 
+      <h2 class="cart-title">Your Cart</h2>
+      <!----contant-->
+        <div class="cart-content">
+         
+        </div> 
+           
+           <!---total-->
+             <div class="total">
+                  <div class="total-title">Total</div>
+                  <div class="total-price">$0</div>
+             </div>
+           <!----Buy Button-->
+             <button type="button" class="btn-buy">Buy Now</button>
+             <!---cart close-->
+             <i class="fa-sharp fa-solid fa-xmark" id="close-cart"></i>
+        </div>
+    </div>
+    </div>
+  </section> 
+  <script src="./js/main.js"></script>  
+  
+
+
+
+  <section>
+       <div class="upcoming-product"><a style="top: 1.9rem;">Our Upcoming Product</a></div>
+  </section>
+
+  </body>
+</html>

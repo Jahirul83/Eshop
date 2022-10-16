@@ -111,6 +111,15 @@ header{
 .total-price{
     margin-left: 0.5rem;
 }
+.delivery{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+    border-top: 1px solid var(--text-color);
+}
+.delivery-price{
+    margin-left: 0.5rem;
+}
 .btn-buy{
     display: flex;
     margin: 1.5rem auto 0 auto;
@@ -255,22 +264,32 @@ margin: 0 auto;
  font-weight: 200;
 }
 /* footer */
-footer .brand{
-    font-family: var(--lg-font);
-    letter-spacing: 2px;
+.news{
+    background-color: #171427;
+    color: white;
 }
-footer a{
-    -webkit-transition: color 0.3s ease;
-    -o-transition: color 0.3s ease;
-    transition: color 0.3s ease;
+.btn-footer{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
 }
-footer a:hover{
-    color: var(--pink)!important;
-}
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
 
-/* media queries */
-@media(min-width: 992px){
-    .nav-item{
-        border-bottom: none;
-    }
+
+}
+.fab{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
 }
